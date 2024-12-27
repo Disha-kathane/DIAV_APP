@@ -1,0 +1,39 @@
+{
+  "name": "fastify-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "csvtojson": "^2.0.10",
+    "fastify": "^3.20.1",
+    "fastify-express": "^0.3.3",
+    "fastify-multer": "^2.0.2",
+    "file-type": "^16.5.3",
+    "google-libphonenumber": "^3.2.22",
+    "lodash": "^4.17.21",
+    "log4js": "^6.3.0",
+    "mime-types": "^2.1.32",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.0.0",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "pm2": "^5.1.0",
+    "promise": "^8.1.0",
+    "properties-reader": "^2.2.0",
+    "urlencode": "^1.1.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0",
+    "xlsx": "^0.17.0"
+  }
+}
